@@ -1,29 +1,41 @@
-name: thought process.
-favicon: null
-layout_spectrum: 0
-typography_spectrum: 0.29761
 title: thought process.
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.5982593740336597
+  brandStrength: 0.08518533105961978
+  rhythmicContrast: 0.7350485438946635
   brandColors:
     - '#A690A4'
     - '#B68F9D'
     - '#C8ACAB'
     - '#FBB9BF'
     - '#E376B7'
-  brandStrength: 0.08518533105961978
   lightness: 0.9572143831755966
-  saturation: 0.5982593740336597
-  rhythmicContrast: 0.7350485438946635
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: thought process.
+favicon: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.29761
+layout_spectrum: 0.3387097
